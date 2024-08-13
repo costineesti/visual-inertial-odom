@@ -1,0 +1,33 @@
+digraph "packages_threads" {
+rankdir=BT
+charset="utf-8"
+"DemoCarBFMC.perception" [color="black", label=<DemoCarBFMC.perception>, shape="box", style="solid"];
+"DemoCarBFMC.perception.__pycache__" [color="black", label=<DemoCarBFMC.perception.__pycache__>, shape="box", style="solid"];
+"DemoCarBFMC.perception.processCameraDetection" [color="black", label=<DemoCarBFMC.perception.processCameraDetection>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads" [color="black", label=<DemoCarBFMC.perception.threads>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.__pycache__" [color="black", label=<DemoCarBFMC.perception.threads.__pycache__>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.intersection_detection" [color="black", label=<DemoCarBFMC.perception.threads.intersection_detection>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.intersection_detection.__pycache__" [color="black", label=<DemoCarBFMC.perception.threads.intersection_detection.__pycache__>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.intersection_detection.intersectionDetection" [color="black", label=<DemoCarBFMC.perception.threads.intersection_detection.intersectionDetection>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.intersection_detection.lineTracker" [color="black", label=<DemoCarBFMC.perception.threads.intersection_detection.lineTracker>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.intersection_detection.preprocess" [color="black", label=<DemoCarBFMC.perception.threads.intersection_detection.preprocess>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.lane_detection" [color="black", label=<DemoCarBFMC.perception.threads.lane_detection>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.lane_detection.__pycache__" [color="black", label=<DemoCarBFMC.perception.threads.lane_detection.__pycache__>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.lane_detection.distanceError" [color="black", label=<DemoCarBFMC.perception.threads.lane_detection.distanceError>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.lane_detection.imagePreprocess" [color="black", label=<DemoCarBFMC.perception.threads.lane_detection.imagePreprocess>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.lane_detection.laneDetect" [color="black", label=<DemoCarBFMC.perception.threads.lane_detection.laneDetect>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.lane_detection.reverseCoordinates" [color="black", label=<DemoCarBFMC.perception.threads.lane_detection.reverseCoordinates>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.sign_detection" [color="black", label=<DemoCarBFMC.perception.threads.sign_detection>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.sign_detection.__pycache__" [color="black", label=<DemoCarBFMC.perception.threads.sign_detection.__pycache__>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.sign_detection.reverseCoordinates" [color="black", label=<DemoCarBFMC.perception.threads.sign_detection.reverseCoordinates>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.sign_detection.signDetection" [color="black", label=<DemoCarBFMC.perception.threads.sign_detection.signDetection>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.threadDisplay" [color="black", label=<DemoCarBFMC.perception.threads.threadDisplay>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.threadIntersectionDetection" [color="black", label=<DemoCarBFMC.perception.threads.threadIntersectionDetection>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.threadLaneDetection" [color="black", label=<DemoCarBFMC.perception.threads.threadLaneDetection>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.threadSharedMemory" [color="black", label=<DemoCarBFMC.perception.threads.threadSharedMemory>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.threadSignDetection" [color="black", label=<DemoCarBFMC.perception.threads.threadSignDetection>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.threadVisualOdometry" [color="black", label=<DemoCarBFMC.perception.threads.threadVisualOdometry>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.utils" [color="black", label=<DemoCarBFMC.perception.threads.utils>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.utils.__pycache__" [color="black", label=<DemoCarBFMC.perception.threads.utils.__pycache__>, shape="box", style="solid"];
+"DemoCarBFMC.perception.threads.utils.warpPerspective" [color="black", label=<DemoCarBFMC.perception.threads.utils.warpPerspective>, shape="box", style="solid"];
+}
